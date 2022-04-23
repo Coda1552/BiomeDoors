@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+// todo - exiting/entering a world does not save nbt
 public class BiomeListSavedData extends SavedData {
     private Map<Block, ResourceKey<Biome>> map;
 
